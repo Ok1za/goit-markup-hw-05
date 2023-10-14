@@ -720,3 +720,36 @@ address {
     visibility: visible;
     pointer-events: auto;
 }
+
+.check-text {
+    color: #8E8F99;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+}
+
+.check-text a {
+    color: #4D5AE5;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    
+}
+
+.check-text span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+    margin-right: 12px;
+    fill: transparent;
+}
+
+.check-input:checked + .check-text span {
+    background-color: #404BBF;
+    border: none;
+    fill: #F4F4FD;
+}
