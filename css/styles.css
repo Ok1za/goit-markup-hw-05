@@ -613,7 +613,10 @@ address {
     border-radius: 4px;
     border: 1px solid var(--WHITE, #FFF);
     background-color: transparent;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-size: 12px;
+    line-height: 1.5%;
+    letter-spacing: 0.04em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); 
     margin-right: 24px;
     padding-left: 16px;
     padding-top: 8px;
@@ -629,7 +632,9 @@ address {
 }
 
 .footer-btn {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
@@ -641,20 +646,31 @@ address {
     text-align: center;
     font-size: 16px;
     line-height: 1.5%;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.04em;
     cursor: pointer;
     border: none;
-}
-
-.footer-form {
+    min-width: 165px;
+    height: 40px;
+    font-weight: 500;
     
 }
 
-.footer-label {
+.footer-form {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-text {
     color: var(--WHITE, #FFF);
     font-size: 16px;
     line-height: 1.5%;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.btn-icon {
+    margin-left: 16px;
 }
 
 /* ====================== BACKDROP ====================== */
