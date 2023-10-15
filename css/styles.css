@@ -522,15 +522,18 @@ address {
     background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
+    
 }
 
 .footer-div {
     display: flex;
     align-items: baseline;
+    
 }
 
 .container-footer {
     margin-right: 120px;
+    
 }
 
 .logo {
@@ -543,6 +546,7 @@ address {
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 16px;
+    
 }
 
 .logo-text {
@@ -553,6 +557,7 @@ address {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
+    
 }
 
 .footer-soc {
@@ -566,16 +571,19 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
+    
 }
 
 .footer-list {
     display: flex;
     gap: 16px;
+    
 }
 
 .ft-soc {
     width: 40px;
     height: 40px;
+    
 }
 
 .footer-link {
@@ -596,6 +604,57 @@ address {
 
 .footer-soc-icon {
     fill: #f4f4fd;
+    
+}
+
+.footer-input {
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid var(--WHITE, #FFF);
+    background-color: transparent;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin-right: 24px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #ffffff;
+}
+
+.footer-input::placeholder {
+    color: var(--WHITE, #FFF);
+    font-size: 12px;
+    line-height: 2%;
+    letter-spacing: 0.02em;
+}
+
+.footer-btn {
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    font-weight: 500;
+    background: var(--IRIS, #4D5AE5);
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5%;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    border: none;
+}
+
+.footer-form {
+    
+}
+
+.footer-label {
+    color: var(--WHITE, #FFF);
+    font-size: 16px;
+    line-height: 1.5%;
+    letter-spacing: 0.03em;
 }
 
 /* ====================== BACKDROP ====================== */
@@ -687,7 +746,6 @@ address {
     border: 1px solid rgba(46, 47, 66, 0.40);
     outline: transparent;
     padding-left: 46px;
-    outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: transparent;
     padding-left: 38px;
