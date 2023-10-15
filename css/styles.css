@@ -703,11 +703,13 @@ address {
 .modal-btn:hover {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .modal-btn:focus {
     background-color: #404BBF;
     border: none;
+    fill: #ffffff;
 }
 
 .modal-btn-icon {
@@ -716,13 +718,6 @@ address {
 
 }
 
-.modal-btn-icon:hover {
-    fill: #ffffff;
-}
-
-.modal-btn-icon:focus {
-    fill: #ffffff;
-}
 
 .modal-title {
     text-align: left;
