@@ -770,7 +770,6 @@ address {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: transparent;
     padding-left: 38px;
-    margin-bottom: 8px;
 
 }
 
@@ -909,8 +908,4 @@ address {
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-}
-
-.check-input {
-    margin-bottom: 24px;
 }
