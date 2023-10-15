@@ -770,6 +770,7 @@ address {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: transparent;
     padding-left: 38px;
+    margin-bottom: 8px;
 
 }
 
@@ -781,7 +782,7 @@ address {
     fill: #4D5AE5;
 }
 
-.modal-name {
+/* .modal-name {
     margin-bottom: 8px;
 }
 
@@ -795,7 +796,7 @@ address {
 
 .modal-comment {
     margin-bottom: 24px;
-}
+} */
 
 
 .modal-label {
@@ -908,4 +909,8 @@ address {
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+
+.check-input {
+    margin-bottom: 24px;
 }
