@@ -736,10 +736,7 @@ address {
 
 }
 
-.modal-btn-icon:hover {
-    fill: #ffffff;
-}
-
+.modal-btn-icon:hover,
 .modal-btn-icon:focus {
     fill: #ffffff;
 }
@@ -776,12 +773,20 @@ address {
 
 }
 
-.modal-input:focus {
+.modal-icon:focus {
     border-color: #4D5AE5;
 }
 
 .modal-input:focus + .modal-icon {
     stroke: #4D5AE5;
+}
+
+.modal-phone {
+    margin-bottom: 16px;
+}
+
+.modal-email {
+    margin-bottom: 24px;
 }
 
 .modal-label {
@@ -889,7 +894,7 @@ address {
     height: 56px;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.5%;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
