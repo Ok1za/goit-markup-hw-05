@@ -614,7 +614,7 @@ address {
     border: 1px solid var(--WHITE, #FFF);
     background-color: transparent;
     font-size: 12px;
-    line-height: 1.5%;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); 
     margin-right: 24px;
@@ -645,7 +645,7 @@ address {
     color: var(--WHITE, #FFF);
     text-align: center;
     font-size: 16px;
-    line-height: 1.5%;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
     border: none;
