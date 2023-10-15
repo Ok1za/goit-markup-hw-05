@@ -703,13 +703,11 @@ address {
 .modal-btn:hover {
     background-color: #404bbf;
     border: none;
-    fill: #ffffff;
 }
 
 .modal-btn:focus {
     background-color: #404BBF;
     border: none;
-    fill: #ffffff;
 }
 
 .modal-btn-icon {
@@ -718,6 +716,13 @@ address {
 
 }
 
+.modal-btn-icon:hover {
+    fill: #ffffff;
+}
+
+.modal-btn-icon:focus {
+    fill: #ffffff;
+}
 
 .modal-title {
     text-align: left;
@@ -725,7 +730,7 @@ address {
 }
 
 .modal-field {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .text-bd {
@@ -769,6 +774,14 @@ address {
     line-height: 1.17;
     letter-spacing: 0.04em;
     margin-bottom: 4px;
+}
+
+.modal-label:focus {
+    fill: #4d5ae5;
+}
+
+.modal-comment {
+    margin-bottom: 24px;
 }
 
 .modal-icon {
@@ -820,7 +833,7 @@ address {
     color: #8E8F99;
     font-size: 12px;
     line-height: 1.17;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
 }
 
 .check-text a {
@@ -832,13 +845,14 @@ address {
 }
 
 .check-text span {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 16px;
     height: 16px;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.40);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-right: 12px;
     fill: transparent;
 }
@@ -847,4 +861,21 @@ address {
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
+}
+
+.modal-send-btn {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5%;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4d5ae5;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
