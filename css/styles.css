@@ -744,9 +744,9 @@ address {
 
 }
 
-.modal-btn-icon:hover,
-.modal-btn-icon:focus {
-    fill: #ffffff;
+.modal-btn:hover .modal-btn-icon,
+.modal-btn:focus .modal-btn-icon {
+    fill: #FFFFFF;
 }
 
 .modal-title {
