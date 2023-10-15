@@ -730,7 +730,13 @@ address {
     border: none;
 }
 
+.nuinya {
+    margin-bottom: 24px;
+}
 
+.modal-nuinya {
+    margin-bottom: 8px;
+}
 
 .modal-btn-icon {
     fill: #2E2F42;
