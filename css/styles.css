@@ -781,23 +781,6 @@ address {
     fill: #4D5AE5;
 }
 
-.modal-name {
-    margin-bottom: 8px;
-}
-
-.modal-phone {
-    margin-bottom: 16px;
-}
-
-.modal-email {
-    margin-bottom: 24px;
-}
-
-.modal-comment {
-    margin-bottom: 24px;
-}
-
-
 .modal-label {
     display: block;
     margin-bottom: 5px;
@@ -812,6 +795,10 @@ address {
 
 .modal-label:focus {
     fill: #4d5ae5;
+}
+
+.modal-comment {
+    margin-bottom: 24px;
 }
 
 .modal-icon {
