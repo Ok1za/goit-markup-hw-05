@@ -747,7 +747,7 @@ address {
 }
 
 .modal-field {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .text-bd {
@@ -773,21 +773,23 @@ address {
 
 }
 
-.modal-icon:focus {
+.modal-input:focus {
     border-color: #4D5AE5;
 }
 
 .modal-input:focus + .modal-icon {
-    stroke: #4D5AE5;
+    fill: #4D5AE5;
 }
 
-/* .modal-phone {
+
+
+.modal-phone {
     margin-bottom: 16px;
 }
 
 .modal-email {
     margin-bottom: 24px;
-} */
+}
 
 .modal-label {
     display: block;
