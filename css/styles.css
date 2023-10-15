@@ -747,7 +747,15 @@ address {
 }
 
 .modal-field {
+    margin-bottom: 8px;
+}
+
+.modal-comment {
     margin-bottom: 16px;
+}
+
+.modal-checkbox {
+    margin-bottom: 24px;
 }
 
 .text-bd {
