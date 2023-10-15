@@ -736,8 +736,8 @@ address {
 
 }
 
-.modal-btn-icon:hover,
-.modal-btn-icon:focus {
+.modal:hover,
+.modal:focus {
     fill: #ffffff;
 }
 
